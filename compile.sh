@@ -33,10 +33,12 @@ echo "Compiling $ARTIFACT with $GRAALVM_VERSION"
 { time native-image \
   --verbose $DEBUG_FLAGS \
   -H:Name=$ARTIFACT \
-  -H:+TraceClassInitialization \
+  -Dspring.native.mode=functional \
   -Dspring.native.remove-xml-support=true \
   -Dspring.native.remove-spel-support=true \
+  -Dspring.native.remove-yaml-support=true \
   -Dspring.native.remove-jmx-support=true \
+  -H:+PrintAnalysisCallTree \
   -cp $CP $MAINCLASS >> output.txt ; } 2>> output.txt
 
 if [[ -f $ARTIFACT ]]

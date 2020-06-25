@@ -10,6 +10,31 @@
 		"allDeclaredMethods": true
     },
     {
+      "name": "org.springframework.context.annotation.AnnotationConfigApplicationContext",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "name": "org.springframework.context.annotation.ConfigurationClassPostProcessor",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "name": "org.springframework.context.event.EventListenerMethodProcessor",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "name": "org.springframework.context.event.DefaultEventListenerFactory",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
         "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration_TransactionTemplateConfigurationInitializer",
         "allDeclaredConstructors": true,
         "allDeclaredMethods": true
