@@ -20,6 +20,11 @@
       "allDeclaredMethods": true
     },
     {
+      "name": "org.springframework.context.support.GenericApplicationContext",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true
+    },
+    {
       "name": "org.springframework.init.func.FunctionalInstallerListener",
       "allDeclaredConstructors": true,
       "allDeclaredMethods": true
