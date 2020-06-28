@@ -318,5 +318,12 @@
       "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration_Jackson2ObjectMapperBuilderCustomizerConfigurationInitializer",
       "allDeclaredConstructors": true,
       "allDeclaredMethods": true
-    }
+    },
+  {
+    "name": "org.springframework.boot.SpringApplication",
+    "fields" : [
+      { "name" : "primarySources", "allowWrite" : true },
+      { "name" : "applicationContextClass", "allowWrite" : true }
+    ]
+  }
 ]
